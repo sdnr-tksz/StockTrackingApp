@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "ProductOutput";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Ürün Çıkışı</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/Home/Index/">Ana Sayfa</a></li>
+                <li class="breadcrumb-item">Ürün Çıkışı</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ürün Çıkışı</h5>
+                            <div class="row mb-3">
+                                <div class="col-sm-12">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="">Ürün seçiniz..</option>
+                                        <option value="1">Nike</option>
+                                    </select>
+                                    <br />
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingText" style="height: 50px;"></textarea>
+                                        <label for="floatingTextarea">Adet sayısı</label>
+                                    </div>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="">Kategori seçiniz..</option>
+                                        <option value="1">Giyim</option>
+                                    </select>
+                                    <br />
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="">Depo seçiniz..</option>
+                                        <option value="1">A Deposu</option>
+                                    </select>
+                                    <br />
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="">Teslim ili seçiniz..</option>
+                                                <option value="1">Gaziantep</option>
+                                            </select>
+                                            <br />
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="">Teslim ilçesi seçiniz..</option>
+                                                <option value="1">Şahinbey</option>
+                                            </select>
+                                            <br />
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="">Teslim mahallesi seçiniz..</option>
+                                                <option value="1">Sultan Abdulhamit</option>
+                                            </select>
+                                            <br />
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="inputDate" class="col-sm-2 col-form-label">Ürün Çıkış Tarihi</label>
+                                        <div class="col-sm-10">
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary">Ürün Çıkışı Yap</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form><!-- End General Form Elements -->
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main --><!-- End #main -->
+

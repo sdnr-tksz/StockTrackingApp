@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "GetWarehouse";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Depoları Listele</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/Admin/Home/Index/">Ana Sayfa</a></li>
+                <li class="breadcrumb-item">Depolar</li>
+                <li class="breadcrumb-item active">Depoları Listele</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Depo Listesi</h5>
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>İsim</th>
+                                    <th>İl</th>
+                                    <th>İlçe</th>
+                                    <th>Mahalle</th>
+                                    <th>Sokak</th>
+                                    <th>Adres detay</th>
+                                    <th>Kullanıcı</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>A Deposu</td>
+                                    <td>Gaziantep</td>
+                                    <td>Şehitkamil</td>
+                                    <td>Mücahitler</td>
+                                    <td>Orkide</td>
+                                    <td>No: 27</td>
+
+                                    <td>Seda Nur Toksöz</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Table with stripped rows -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->

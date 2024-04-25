@@ -1,0 +1,14 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+@await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminHeaderPartial.cshtml")
+
+<body>
+    @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminNavbarPartial.cshtml")
+    @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminSidebarPartial.cshtml")
+    @RenderBody()
+</body>
+@await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminFooterPartial.cshtml")
+@await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminScriptsPartial.cshtml")
+</html>

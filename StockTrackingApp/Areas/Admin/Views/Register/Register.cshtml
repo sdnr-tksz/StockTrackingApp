@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="d-flex justify-content-center py-4">
+                        <a href="/Admin/Home/Index" class="logo d-flex align-items-center w-auto">
+                            <img src="~/NiceAdmin/assets/img/logo.png" alt="">
+                            <span class="d-none d-lg-block">Stok Takip</span>
+                        </a>
+                    </div><!-- End Logo -->
+
+                    <div class="card mb-3">
+
+                        <div class="card-body">
+
+                            <div class="pt-4 pb-2">
+                                <h5 class="card-title text-center pb-0 fs-4">Kullanıcı Hesabı Oluşturun</h5>
+                                <p class="text-center small">Kullanıcı bilgilerinizi giriniz.</p>
+                            </div>
+
+                            <form class="row g-3 needs-validation" novalidate>
+
+                                <div class="col-12">
+                                    <label for="yourName" class="form-label">İsim</label>
+                                    <input type="text" name="name" class="form-control" id="yourName" required>
+                                    <div class="invalid-feedback">Lütfen isminizi giriniz!</div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="yourName" class="form-label">Soy isim</label>
+                                    <input type="text" name="name" class="form-control" id="yourName" required>
+                                    <div class="invalid-feedback">Lütfen soy isminizi giriniz!</div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="yourName" class="form-label">Sicil numarası</label>
+                                    <input type="text" name="name" class="form-control" id="yourName" required>
+                                    <div class="invalid-feedback">Lütfen sicil no giriniz!</div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="yourUsername" class="form-label">Kullanıcı adı</label>
+                                    <div class="input-group has-validation">
+                                        <input type="text" name="username" class="form-control" id="yourUsername" required>
+                                        <div class="invalid-feedback">Kullanıcı adı giriniz!</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="yourPassword" class="form-label">Şifre</label>
+                                    <input type="password" name="password" class="form-control" id="password1" required>
+                                    <div class="invalid-feedback">Lütfen şifre giriniz!</div>
+                                </div>
+@* 
+                                <div class="col-12">
+                                    <label for="confirmPassword" class="form-label">Şifre tekrar</label>
+                                    <input type="password" name="confirmPassword" class="form-control" id="password2" required>
+                                    <div class="invalid-feedback">Lütfen şifreyi tekrar giriniz!</div>
+                                    <div id="passwordMatch" class="invalid-feedback" style="display: none;">Şifre eşleşmiyor!</div>
+                                </div> *@
+
+                                <br />
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100" type="submit">Kayıt Ol</button>
+                                </div>
+
+                                @* <script>
+                                    // Get references to the password fields and the error message
+                                    var password1 = document.getElementById('password1');
+                                    var password2 = document.getElementById('password2');
+                                    var passwordMatch = document.getElementById('passwordMatch');
+                                    var signUpButton = document.getElementById('signUpButton');
+
+                                    // Function to check if passwords match
+                                    function validatePassword() {
+                                        if (password1.value !== password2.value) {
+                                            passwordMatch.style.display = 'block';
+                                            password2.setCustomValidity('Şifre Eşleşmiyor!');
+                                        } else {
+                                            passwordMatch.style.display = 'none';
+                                            password2.setCustomValidity('');
+                                        }
+                                    }
+
+                                    // Function to handle sign up button click
+                                    function signUpButtonClickHandler() {
+                                        validatePassword(); // Validate passwords before submitting
+                                    }
+
+                                    // Add event listeners to both password fields
+                                    password1.addEventListener('input', validatePassword);
+                                    password2.addEventListener('input', validatePassword);
+
+                                    // Add event listener to the sign up button
+                                    signUpButton.addEventListener('click', signUpButtonClickHandler);
+                                </script> *@
+
+
+                            </form>
+
+                        </div>
+                    </div>
+                </form><!-- End General Form Elements -->
+
+            </div>
+        </div>
+    </section>
+
+</main>
+

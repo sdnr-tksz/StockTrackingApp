@@ -1,0 +1,203 @@
+﻿ <!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/Home/Index/">
+                <i class="bi bi-grid"></i>
+                <span>Kontrol Paneli</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-collection"></i><span>Kategoriler</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                @* <li>
+                    <a href="/Category/GetCategory/">
+                        <i class="bi bi-circle"></i><span>Kategorileri Listele</span>
+                    </a>
+                </li> *@
+                <li>
+                    <a href="/Category/AddCategory">
+                        <i class="bi bi-circle"></i><span>Kategori Ekle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Category/UpdateCategory">
+                        <i class="bi bi-circle"></i><span>Kategori Güncelle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Category/DeleteCategory">
+                        <i class="bi bi-circle"></i><span>Kategori Sil</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Category Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-tags"></i><span>Markalar</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+               @*  <li>
+                    <a href="/Brand/GetBrand">
+                        <i class="bi bi-circle"></i><span>Markaları Listele</span>
+                    </a>
+                </li> *@
+                <li>
+                    <a href="/Brand/AddBrand">
+                        <i class="bi bi-circle"></i><span>Marka Ekle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Brand/UpdateBrand">
+                        <i class="bi bi-circle"></i><span>Marka Güncelle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Brand/DeleteBrand">
+                        <i class="bi bi-circle"></i><span>Marka Sil</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Brand Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-house-door"></i><span>Depolar</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                @* <li>
+                    <a href="/Warehouse/GetWarehouse">
+                        <i class="bi bi-circle"></i><span>Depoları Listele</span>
+                    </a>
+                </li> *@
+                <li>
+                    <a href="/Warehouse/AddWarehouse">
+                        <i class="bi bi-circle"></i><span>Depo Ekle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Warehouse/UpdateWarehouse">
+                        <i class="bi bi-circle"></i><span>Depo Güncelle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Warehouse/DeleteWarehouse">
+                        <i class="bi bi-circle"></i><span>Depo Sil</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Warehouse Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-box-seam"></i><span>Ürünler</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+               @*  <li>
+                    <a href="/Product/GetProduct">
+                        <i class="bi bi-circle"></i><span>Ürünleri Listele</span>
+                    </a>
+                </li> *@
+                <li>
+                    <a href="/Product/AddProduct">
+                        <i class="bi bi-circle"></i><span>Ürün Ekle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Product/UpdateProduct">
+                        <i class="bi bi-circle"></i><span>Ürün Güncelle</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Product/DeleteProduct">
+                        <i class="bi bi-circle"></i><span>Ürün Sil</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Product Nav -->
+
+        @* <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="icons-bootstrap.html">
+                        <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="icons-remix.html">
+                        <i class="bi bi-circle"></i><span>Remix Icons</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="icons-boxicons.html">
+                        <i class="bi bi-circle"></i><span>Boxicons</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Icons Nav -->
+ *@
+        <li class="nav-heading">Sayfalar</li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/ProductEntry/ProductEntry">
+                <i class="bi bi-layer-backward"></i>
+                <span>Ürün Girişi</span>
+            </a>
+        </li><!-- End F.A.Q Page Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/ProductOutput/ProductOutput">
+                <i class="bi bi-layer-forward"></i>
+                <span>Ürün Çıkışı</span>
+            </a>
+        </li><!-- End Contact Page Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/Profile/Profile">
+                <i class="bi bi-person"></i>
+                <span>Profil</span>
+            </a>
+        </li><!-- End Profile Page Nav -->
+@* 
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/Profile/Profile">
+                <i class="bi bi-person"></i>
+                <span>Kullanıcılar</span>
+            </a>
+        </li><!-- End Profile Page Nav --> *@
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/Login/SignIn">
+                <i class="bi bi-box-arrow-in-right"></i>
+                <span>Çıkış</span>
+            </a>
+        </li><!-- End Login Page Nav -->
+@* 
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="pages-error-404.html">
+                <i class="bi bi-dash-circle"></i>
+                <span>Error 404</span>
+            </a>
+        </li><!-- End Error 404 Page Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="pages-blank.html">
+                <i class="bi bi-file-earmark"></i>
+                <span>Blank</span>
+            </a>
+        </li><!-- End Blank Page Nav --> *@
+
+    </ul>
+
+</aside><!-- End Sidebar-->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

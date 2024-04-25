@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "GetProductEntry";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Ürün Girişlerini Listele</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/Admin/Home/Index/">Ana Sayfa</a></li>
+                <li class="breadcrumb-item">Ürün Girişi</li>
+                <li class="breadcrumb-item active">Ürün Girişlerini Listele</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ürün Girişleri Listesi</h5>
+
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Ürün</th>
+                                    <th>Adet</th>
+                                    <th>Giriş Deposu</th>
+                                    <th>Giriş Tarihi</th>
+                                    <th>Girişi Yapan Kullanıcı</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Nike</td>
+                                    <td>100</td>
+                                    <td>A Deposu</td>
+                                    <td>10/04/2024</td>
+                                    <td>Seda Nur Toksöz</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Table with stripped rows -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+

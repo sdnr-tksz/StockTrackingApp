@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Markaları Listele</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/Admin/Home/Index/">Ana Sayfa</a></li>
+                <li class="breadcrumb-item">Markalar</li>
+                <li class="breadcrumb-item active">Markaları Listele</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Kullanıcılar Listesi</h5>
+
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>İsim</th>
+                                    <th>Soyisim</th>
+                                    <th>Pozisyon</th>                                    
+                                    <th>Admin Yap</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Seda Nur</td>
+                                    <td>Toksöz</td>
+                                    <td>Depo Çalışanı</td>
+									<td>
+                                        <div class="form-check form-switch" align="center">
+											<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+										</div>
+									</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Kevin</td>
+                                    <td>Anderson</td>
+                                    <td>Depo Müdürü</td>
+                                    <td>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Table with stripped rows -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
